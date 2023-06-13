@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Liste de contacts</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body onload="chargerContacts()">
+  
+  <div id="myDiv">
+    <h1>Bienvenue dans le répertoire A-CO-R</h1>
+    <div id="contacts">
+        <div class="contactInput"></div>
+        <input type="text" id="prenom" placeholder="Prénom">
+        <input type="text" id="nom" placeholder="Nom">
+        <input type="text" id="telephone" placeholder="Numéro de téléphone">
+        <button class="ajoutContact" onclick="ajouterContact()"><i class="fas fa-plus"></i><strong>  Ajouter un contact</strong></button>
+    </div>
+    
+    <div id="liste-contacts">
+      <table id="contacts-liste">
+        <tr>
+          <th>Prénom</th>
+          <th>Nom</th>
+          <th>Numéro de téléphone</th>
+          <th>Modification</th>
+          <th>Suppression</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    
+  </script>
+</body>
+</html>

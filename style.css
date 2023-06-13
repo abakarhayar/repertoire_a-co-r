@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(125, 219, 125);
+  }
+
+  h1, h2 {
+    color: #333;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  #contacts input {
+    border-radius: 0px;
+    border-color: rgb(212, 212, 212);
+    border-width: 1px;
+  }
+
+  .ajoutContact{
+      margin-top: 15px;
+      background-color: red;
+      color: white;
+      border-radius: 7px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 20px;
+      border-color: red;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid
+  }
+  th {
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+  }
+  button{
+      background-color: transparent;
+  }
+
+  #myDiv{
+    padding-top: 150px;
+  }
